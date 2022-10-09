@@ -16,10 +16,10 @@ powers = Power.create([
 
 
 heropowers = HeroPower.create([
-    {strength: "Powerful", hero_id: 1, power_id: 1},
-    {strength: "Superhuman", hero_id: 2, power_id: 1},
-    {strength: "Weak", hero_id: 3, power_id: 2},
-    {strength: "Superpowerful", hero_id: 4, power_id: 3}
+    {strength: "Strong", hero_id: 1, power_id: 1},
+    {strength: "Average", hero_id: 2, power_id: 1},
+    {strength: "Strong", hero_id: 3, power_id: 2},
+    {strength: "Weak", hero_id: 4, power_id: 3}
 
     ])
 puts "Seeding Complete!"
